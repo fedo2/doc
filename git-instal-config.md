@@ -22,7 +22,7 @@ git add .
 git commit -m "Tvoje zpráva"
 ```
 
-### 3. Práce se vzdáleným repozitářem (GitHub/GitLab)
+### 3. Práce se vzdáleným repozitářem GitHub
 
 Jelikož nemáš prohlížeč pro klikání na "Sign in", budeš muset použít buď SSH klíče (které jsem zmiňoval minule), nebo Personal Access Token (PAT).
 Jak na SSH v terminálu:
@@ -35,7 +35,7 @@ Ten pak vložíš do nastavení GitHubu přes jiný počítač, kde prohlížeč
 
 `git clone git@github.com:uzivatel/projekt.git`
 
-### 4. Mentorův tip: Prohlížení historie
+### 4. Prohlížení historie
 
 Ve VS Code máš grafické rozšíření (GitLens), v terminálu je to bez úprav trochu nepřehledné. Zkus tento "magický" příkaz pro hezký výpis historie:
 
