@@ -41,7 +41,6 @@ sdX3 `Linux filesystem`
 
 ##### Vytvoření společného grub.cfg
 
-`mkdir -p /mnt/boot/grub`
 `touch /mnt/boot/grub/grub.cfg`
 `nano /mnt/boot/grub/grub.cfg`
 
