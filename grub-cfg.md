@@ -15,7 +15,12 @@ menuentry "Arch Linux SSD" {
 }
 ```
 
-Partition musí mít nastavený `label`, který na nastaví buď při formátování partition:
-`mkfs.ext4 -L archroot /dev/sdb3`
-nebo dodatečně příkazem:
-`e2label /dev/sdb3 archroot`
+Partition musí mít nastavený `label`, který se nastaví buď
+- při formátování partition:
+```bash
+mkfs.ext4 -L archroot /dev/sdb3
+```
+- nebo dodatečně příkazem:
+```bash
+e2label /dev/sdb3 archroot
+```
