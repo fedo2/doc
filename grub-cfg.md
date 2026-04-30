@@ -10,7 +10,7 @@ menuentry "Arch Linux SSD" {
     insmod part_gpt
     insmod ext2
     search --label $DISKLABEL --set=root
-    linux $KERNEL root=LABEL=$DISKLABEL rw
+    linux $KERNEL root=LABEL=$DISKLABEL rw loglevel=3
     initrd $INITRD
 }
 ```
